@@ -18,7 +18,7 @@ import streamlit as st
 loaded_model = pickle.load(open('C:\\Users\\user\\Documents\\ARTIFICIAL INTELIGENCE\\FIFADEPLOYMENT\\best_xgb_model.pkl', 'rb'))
 
 # Load the predictions
-predicted_data = pd.read_pickle('C:\\Users\\user\\Documents\\ARTIFICIAL INTELIGENCE\\FIFADEPLOYMENT\\predicted_players_22.pkl')
+predicted_data = pd.read_pickle('https://github.com/Puritymoraa/PURITYMORAA._SportsPrediction/blob/main/predicted_players_22.pkl')
 
 # Define the prediction function
 def fifa_predictions(input_data):
