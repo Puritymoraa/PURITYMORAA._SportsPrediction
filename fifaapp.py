@@ -12,8 +12,6 @@ Original file is located at
 import numpy as np
 import pandas as pd
 import pickle
-from sklearn import preprocessing
-import xgboost
 import streamlit as st
 
 # Load the model
